@@ -1,16 +1,23 @@
 import React, { Fragment } from 'react';
 import logo from '../../images/logos/TANZ TECHNOLOGIES LTD-05.png';
+import {
+  FaFacebook,
+  FaTwitter,
+  FaGooglePlus,
+  FaInstagram,
+  FaHeart,
+} from 'react-icons/fa';
 
 export default function index() {
   return (
     <Fragment>
-      <footer class="site-footer" style={{ position: 'absolute', bottom: '0' }}>
-        <div class="footer-widgets">
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-6 col-lg-3">
-                <div class="foot-about">
-                  <a class="foot-logo" href="#!">
+      <footer className="site-footer">
+        <div className="footer-widgets">
+          <div className="container">
+            <div className="row">
+              <div className="col-12 col-md-6 col-lg-3">
+                <div className="foot-about">
+                  <a className="foot-logo" href="#!">
                     <img src={logo} height="60" width="120" alt="" />
                   </a>
 
@@ -19,18 +26,18 @@ export default function index() {
                     culpa qui officia dese mollit anim id est laborum.{' '}
                   </p>
 
-                  <p class="footer-copyright">
+                  <p className="footer-copyright">
                     Copyright &copy;
                     <script>document.write(new Date().getFullYear());</script>
                     All rights reserved |
-                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                    <FaHeart />
                     <a href="#!">Tanz</a>
                   </p>
                 </div>
               </div>
 
-              <div class="col-12 col-md-6 col-lg-3 mt-5 mt-md-0">
-                <div class="foot-contact">
+              <div className="col-12 col-md-6 col-lg-3 mt-5 mt-md-0">
+                <div className="foot-contact">
                   <h2>Contact Us</h2>
 
                   <ul>
@@ -44,11 +51,11 @@ export default function index() {
                 </div>
               </div>
 
-              <div class="col-12 col-md-6 col-lg-3 mt-5 mt-lg-0">
-                <div class="quick-links flex flex-wrap">
-                  <h2 class="w-100">Quick Links</h2>
+              <div className="col-12 col-md-6 col-lg-3 mt-5 mt-lg-0">
+                <div className="quick-links flex flex-wrap">
+                  <h2 className="w-100">Quick Links</h2>
 
-                  <ul class="w-50">
+                  <ul className="w-50">
                     <li>
                       <a href="#!">About </a>
                     </li>
@@ -63,7 +70,7 @@ export default function index() {
                     </li>
                   </ul>
 
-                  <ul class="w-50">
+                  <ul className="w-50">
                     <li>
                       <a href="#!">Documentation</a>
                     </li>
@@ -80,33 +87,33 @@ export default function index() {
                 </div>
               </div>
 
-              <div class="col-12 col-md-6 col-lg-3 mt-5 mt-lg-0">
-                <div class="follow-us">
+              <div className="col-12 col-md-6 col-lg-3 mt-5 mt-lg-0">
+                <div className="follow-us">
                   <h2>Follow Us</h2>
 
-                  <ul class="follow-us flex flex-wrap align-items-center">
+                  <ul className="follow-us flex flex-wrap align-items-center">
                     <li>
                       <a
                         target="_blank"
                         rel="noopener noreferrer"
                         href="https://fb.me/tanztechnologies"
                       >
-                        <i class="fa fa-facebook"></i>
+                        <FaFacebook size="2em" />
                       </a>
                     </li>
                     <li>
                       <a href="#!">
-                        <i class="fa fa-google-plus"></i>
+                        <FaGooglePlus size="2em" />
                       </a>
                     </li>
                     <li>
                       <a href="#!">
-                        <i class="fa fa-instagram"></i>
+                        <FaInstagram size="2em" />
                       </a>
                     </li>
                     <li>
                       <a href="#!">
-                        <i class="fa fa-twitter"></i>
+                        <FaTwitter size="2em" />
                       </a>
                     </li>
                   </ul>
@@ -116,11 +123,11 @@ export default function index() {
           </div>
         </div>
 
-        <div class="footer-bar">
-          <div class="container">
-            <div class="row flex-wrap justify-content-center justify-content-lg-between align-items-center">
-              <div class="col-12 col-lg-6">
-                <div class="download-apps flex flex-wrap justify-content-center justify-content-lg-start align-items-center">
+        <div className="footer-bar">
+          <div className="container">
+            <div className="row flex-wrap justify-content-center justify-content-lg-between align-items-center">
+              <div className="col-12 col-lg-6">
+                <div className="download-apps flex flex-wrap justify-content-center justify-content-lg-start align-items-center">
                   <a href="#!">
                     <img src="images/app-store.png" alt="" />
                   </a>
@@ -130,9 +137,9 @@ export default function index() {
                 </div>
               </div>
 
-              <div class="col-12 col-lg-6 mt-4 mt-lg-0">
-                <div class="footer-bar-nav">
-                  <ul class="flex flex-wrap justify-content-center justify-content-lg-end align-items-center">
+              <div className="col-12 col-lg-6 mt-4 mt-lg-0">
+                <div className="footer-bar-nav">
+                  <ul className="flex flex-wrap justify-content-center justify-content-lg-end align-items-center">
                     <li>
                       <a href="#!">DPA</a>
                     </li>
