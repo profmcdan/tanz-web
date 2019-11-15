@@ -1,4 +1,6 @@
 import React from 'react';
+import videoIcon from '../../images/video-icon.png';
+import videoScreenshot from '../../images/video-screenshot.png';
 
 export default function About() {
   return (
@@ -45,10 +47,10 @@ export default function About() {
           <div className="col-12 col-lg-6 flex align-content-center mt-5 mt-lg-0">
             <div className="ezuca-video position-relative">
               <div className="video-play-btn position-absolute">
-                <img src="images/video-icon.png" alt="Video Play" />
+                <img src={videoIcon} alt="Video Play" />
               </div>
 
-              <img src="images/video-screenshot.png" alt="" />
+              <img src={videoScreenshot} alt="" />
             </div>
           </div>
         </div>

@@ -1,4 +1,7 @@
-import React, { Fragment } from 'react';
+import React from 'react';
+import { FaStar } from 'react-icons/fa';
+import courseOneImage from '../../images/1.jpg';
+import courseTwoImage from '../../images/2.jpg';
 
 const Feature = () => {
   return (
@@ -19,18 +22,28 @@ const Feature = () => {
             <div className="course-content flex flex-wrap justify-content-between align-content-lg-stretch">
               <figure className="course-thumbnail">
                 <a href="#!">
-                  <img src="images/1.jpg" alt="" />
+                  <img src={courseOneImage} alt="" />
                 </a>
               </figure>
 
               <div className="course-content-wrap">
                 <header className="entry-header">
                   <div className="course-ratings flex align-items-center">
-                    <span className="fa fa-star checked"></span>
-                    <span className="fa fa-star checked"></span>
-                    <span className="fa fa-star checked"></span>
-                    <span className="fa fa-star checked"></span>
-                    <span className="fa fa-star-o"></span>
+                    <span className="checked">
+                      <FaStar />
+                    </span>
+                    <span className="checked">
+                      <FaStar />
+                    </span>
+                    <span className="checked">
+                      <FaStar />
+                    </span>
+                    <span className="checked">
+                      <FaStar />
+                    </span>
+                    <span className="fa">
+                      <FaStar />
+                    </span>
 
                     <span className="course-ratings-count">(4 votes)</span>
                   </div>
@@ -61,18 +74,28 @@ const Feature = () => {
             <div className="course-content flex flex-wrap justify-content-between align-content-lg-stretch">
               <figure className="course-thumbnail">
                 <a href="#!">
-                  <img src="images/2.jpg" alt=""></img>{' '}
+                  <img src={courseTwoImage} alt=""></img>
                 </a>
               </figure>
 
               <div className="course-content-wrap">
                 <header className="entry-header">
                   <div className="course-ratings flex align-items-center">
-                    <span className="fa fa-star checked"></span>
-                    <span className="fa fa-star checked"></span>
-                    <span className="fa fa-star checked"></span>
-                    <span className="fa fa-star checked"></span>
-                    <span className="fa fa-star-o"></span>
+                    <span className="checked">
+                      <FaStar />
+                    </span>
+                    <span className="checked">
+                      <FaStar />
+                    </span>
+                    <span className="checked">
+                      <FaStar />
+                    </span>
+                    <span className="checked">
+                      <FaStar />
+                    </span>
+                    <span className="fa">
+                      <FaStar />
+                    </span>
 
                     <span className="course-ratings-count">(5 votes)</span>
                   </div>

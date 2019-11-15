@@ -1,4 +1,8 @@
 import React from 'react';
+import { FaMapMarker, FaCalendar } from 'react-icons/fa';
+import eventOneImage from '../../images/event-1.jpg';
+import eventTwoImage from '../../images/event-2.jpg';
+import eventThreeImage from '../../images/event-3.jpg';
 
 export default function News() {
   return (
@@ -15,12 +19,12 @@ export default function News() {
             <div class="featured-event-content">
               <figure class="event-thumbnail position-relative m-0">
                 <a href="#!">
-                  <img src="images/event-1.jpg" alt="" />
+                  <img src={eventOneImage} alt="" />
                 </a>
 
                 <div class="posted-date position-absolute">
-                  <div class="day">23</div>
-                  <div class="month">mar</div>
+                  <div class="day">20</div>
+                  <div class="month">Dec</div>
                 </div>
               </figure>
 
@@ -32,12 +36,12 @@ export default function News() {
                 </h2>
 
                 <div class="event-location">
-                  <i class="fa fa-map-marker"></i>40 Baria Sreet 133/2 NewYork
-                  City, US
+                  <FaMapMarker />
+                  EKO Hotel and Suites, Lagos Island, Nigeria
                 </div>
 
                 <div class="event-duration">
-                  <i class="fa fa-calendar"></i>10 Dec - 12 dec
+                  <FaCalendar /> 20 Dec - 24 Dec
                 </div>
               </header>
             </div>
@@ -47,14 +51,14 @@ export default function News() {
             <div class="event-content flex flex-wrap justify-content-between align-content-stretch">
               <figure class="event-thumbnail">
                 <a href="#!">
-                  <img src="images/event-2.jpg" alt="" />
+                  <img src={eventTwoImage} alt="" />
                 </a>
               </figure>
 
               <div class="event-content-wrap">
                 <header class="entry-header">
                   <div class="posted-date">
-                    <i class="fa fa-calendar"></i> 22 Mar 2018
+                    <FaCalendar /> 22 Mar 2019
                   </div>
 
                   <h2 class="entry-title">
@@ -63,7 +67,7 @@ export default function News() {
 
                   <div class="entry-meta flex flex-wrap align-items-center">
                     <div class="post-author">
-                      <a href="#!">Ms. Lara Croft </a>
+                      <a href="#!">Kehinde Adelugba </a>
                     </div>
 
                     <div class="post-comments">02 Comments </div>
@@ -82,14 +86,14 @@ export default function News() {
             <div class="event-content flex flex-wrap justify-content-between align-content-lg-stretch">
               <figure class="event-thumbnail">
                 <a href="#!">
-                  <img src="images/event-3.jpg" alt="" />
+                  <img src={eventThreeImage} alt="" />
                 </a>
               </figure>
 
               <div class="event-content-wrap">
                 <header class="entry-header">
                   <div class="posted-date">
-                    <i class="fa fa-calendar"></i> 22 Mar 2018
+                    <FaCalendar /> 22 Oct 2019
                   </div>
 
                   <h2 class="entry-title">
@@ -100,7 +104,7 @@ export default function News() {
 
                   <div class="entry-meta flex flex-wrap align-items-center">
                     <div class="post-author">
-                      <a href="#!">Ms. Lara Croft </a>
+                      <a href="#!">Akinwale Ibiyemi </a>
                     </div>
 
                     <div class="post-comments">02 Comments </div>

@@ -1,5 +1,7 @@
 import React, { Fragment } from 'react';
 import logo from '../../images/logos/TANZ TECHNOLOGIES LTD-05.png';
+import appStoreLogo from '../../images/app-store.png';
+import playStoreLogo from '../../images/play-store.png';
 import {
   FaFacebook,
   FaTwitter,
@@ -23,7 +25,7 @@ export default function index() {
 
                   <p>
                     Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia dese mollit anim id est laborum.{' '}
+                    culpa qui officia dese mollit anim id est laborum.
                   </p>
 
                   <p className="footer-copyright">
@@ -31,7 +33,7 @@ export default function index() {
                     <script>document.write(new Date().getFullYear());</script>
                     All rights reserved |
                     <FaHeart />
-                    <a href="#!">Tanz</a>
+                    <a href="#!">Tanz Technologies Limited</a>
                   </p>
                 </div>
               </div>
@@ -129,10 +131,10 @@ export default function index() {
               <div className="col-12 col-lg-6">
                 <div className="download-apps flex flex-wrap justify-content-center justify-content-lg-start align-items-center">
                   <a href="#!">
-                    <img src="images/app-store.png" alt="" />
+                    <img src={appStoreLogo} alt="" />
                   </a>
                   <a href="#!">
-                    <img src="images/play-store.png" alt="" />
+                    <img src={playStoreLogo} alt="" />
                   </a>
                 </div>
               </div>
